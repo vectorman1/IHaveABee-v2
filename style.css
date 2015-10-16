@@ -584,7 +584,7 @@ h6 {
 /*  4.  Header
 /*-----------------------------------------------------------------------------------*/
 #header-wrap {
-    background-color: #A2A2A2;
+    background-color: #000;
     border-bottom-style: solid;
     border-bottom-width: 3px;  
     position: fixed; 
