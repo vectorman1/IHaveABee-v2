@@ -228,7 +228,16 @@ jQuery(document).ready(function($){
 }); // end jquery init
 })(jQuery);
 
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+});
 
+
+    });
+})();
 function initMap() {
     var map = new google.map.Map(document.getElementById('googleMap'), {
         center: {lat: 42.627729, lng: 25.345094},
