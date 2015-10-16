@@ -576,7 +576,7 @@ h6 {
 .general-section .flex-control-paging li a:after { 
     bottom: -3px; 
     border-left: 7px solid transparent; 
-    border-right: 7px solid transparent; 
+    border-right: 7px solid transparent; #
     border-top: 3px solid #595959;   
 }
 
@@ -584,7 +584,7 @@ h6 {
 /*  4.  Header
 /*-----------------------------------------------------------------------------------*/
 #header-wrap {
-    background-color: #FFF;
+    background-color: #A2A2A2;
     border-bottom-style: solid;
     border-bottom-width: 3px;  
     position: fixed; 
