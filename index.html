@@ -23,30 +23,19 @@
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
 <!-- Scripts -->
-<script type="text/javascript" src="scripts/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.easing.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/npm.js"></script>
 <script src="scripts/jquery.easypiechart.min.js"></script>
 <script type="text/javascript" src="scripts/jquery.flexslider-min.js"></script>
 <script id="wow_js_file" type="text/javascript" src="scripts/wow.min.js"></script>
 <script id="waypoints_js_file" type="text/javascript" src="scripts/waypoints.js"></script>
 <script type="text/javascript" src="scripts/jquery.prettyPhoto.js"></script>
-<script type="text/javascript" src="scripts/custom.js"></script>
-<script type="text/javascript" charset="utf-8" src="scripts/twitter/jquery.tweet.js"></script>
 <script type="text/javascript" charset="utf-8" src="scripts/jquery.waypoints.min.js"></script>
-<script type="text/javascript"> 
-jQuery(document).ready(function($) {     $('.tweets-container').tweet({
-    modpath: 'scripts/twitter/',
-    count: 3,
-	loading_text: 'loading twitter feed...',
-	username:'theHighThemes',
-	template: '<div class="hive"><div class="hex outer-hex"><div class="hex-in1"><div class="hex-in2 outer-hex"><div class="hex inner-hex"><div class="hex-in1"><div class="hex-in2 hex-area"><i class="fa-twitter"></i></div></div></div></div></div></div></div><div class="twitter-content">{time}<p>{text}</p></div>'     
-	}); 
-}); 
-</script> <!-- Favicon -->
+<!-- Favicon -->
 <link rel="shortcut icon" href="favicon.png"> 
 <link rel="stylesheet" href="styles/bootstrap.min.css">
-<script src="scripts/bootstrap.min.js"></script>
-<script src="scripts/npm.js"></script>
 <!-- Custom Styles --> 
 <style type="text/css"
 id="themecolors"></style> 
@@ -59,7 +48,7 @@ id="themecolors"></style>
 		<header id="header" class="general-section">
 			<div id="logo"></div><!-- end Logo -->
 			<a class="mobile-nav-toggle deactive" href="#"><i class="fa-bars"></i></a>
-			<nav id="navigation">
+			<nav id="navigation" style="background-color: bl ack">
 				<ul>
 					<li class="active"><a href="#intro-wrap">home</a><span class="nav-active-mark"></span></li>
 					<li><a href="#about-wrap">about us</a></li>
@@ -616,7 +605,7 @@ id="themecolors"></style>
 			</div>
 			<div class="services-intro">
 				<div class="one_half wow bounceInLeft">
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<div id="myCarousel" class="carousel slide" data-ride="carousel" style="width:512px; height:278px">
 					<!-- Indicators -->
 						<ol class="carousel-indicators">
 							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -627,15 +616,15 @@ id="themecolors"></style>
 						<!-- Wrapper for slides -->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-							<img src="images/bees_02.jpg" alt="Chania" width="460" height="345">
+							<img src="images/bees_02.jpg" alt="Chania" width="512" height="278">
 						</div>
 
 						<div class="item">
-							<img src="images/bees_03.jpeg" alt="Chania" width="460" height="345">
+							<img src="images/bees_03.jpeg" alt="Chania" width="512" height="278">
 						</div>
 
 						<div class="item">
-							<img src="images/bees_04.jpg" alt="Flower" width="460" height="345">
+							<img src="images/bees_04.jpg" alt="Flower" width="512" height="278">
 						</div>
 					</div>
 
@@ -651,13 +640,13 @@ id="themecolors"></style>
 					</div>
 				</div>
 				<div class="one-half last">
-					<h3>New Tecnologies</h3>
+					<h3>Предложение</h3>
 					<p>
 						Нашият любителски кошер е различен. Той не изисква грижите на професионален пчелар, а основно любов. Ние ще помогнем да го заселите с пчели и да им дадете подслон. Ще ви обучим как да ги отгледате и да им се любувате. Това е един от малкото начини да имате домашни любимци – свободни, без каишка, без ограничението на клетки и огради.	
 					</p>
 				</div>				
 			</div><!-- end Services Intro -->
-			<div class="one_half services-item clearfix">
+			<div class="container services-item clearfix">
 				<div class="hive">
 					<div class="hex outer-hex">
 						<div class="hex-in1">
@@ -672,11 +661,11 @@ id="themecolors"></style>
 					</div>  
 				</div>
 				<div class="services-info">
-					<h3>RESPONSIVE DESIGN</h3>
+					<h3>Предимство 1</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>			
 				</div>
 			</div><!-- end Services Item -->	
-			<div class="one_half services-item clearfix last">
+			<div class="container services-item clearfix last">
 				<div class="hive">
 					<div class="hex outer-hex">
 						<div class="hex-in1">
@@ -691,11 +680,11 @@ id="themecolors"></style>
 					</div>  
 				</div>
 				<div class="services-info">
-					<h3>PRICELESS CREATIVITY</h3>
+					<h3>Предимство 2</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>			
 				</div>
 			</div><!-- end Services Item -->				
-			<div class="one_half services-item clearfix">
+			<div class="container services-item clearfix">
 				<div class="hive">
 					<div class="hex outer-hex">
 						<div class="hex-in1">
@@ -710,11 +699,11 @@ id="themecolors"></style>
 					</div>  
 				</div>
 				<div class="services-info">
-					<h3>BUSINESS SECURITY</h3>
+					<h3>Предимство 3</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>			
 				</div>
 			</div><!-- end Services Item -->	
-			<div class="one_half services-item clearfix last">
+			<div class="container services-item clearfix last">
 				<div class="hive">
 					<div class="hex outer-hex">
 						<div class="hex-in1">
@@ -729,7 +718,7 @@ id="themecolors"></style>
 					</div>  
 				</div>
 				<div class="services-info">
-					<h3>QUICK RESPONSE</h3>
+					<h3>Предимство 4</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo.</p>			
 				</div>
 			</div><!-- end Services Item -->							
@@ -739,8 +728,8 @@ id="themecolors"></style>
 		<section id="gallery" class="gallery general-section clearfix">
 			<div class="section-triangle-grey"></div>
 			<div class="section-title">
-				<h2>GALLERY</h2>
-				<h5>Check our portfolio and photos</h5>
+				<h2>Проекти</h2>
+				<h5>Къде работим по нещо</h5>
 			</div>
 			<div class="flexslider">
 			<ul class="slides">
